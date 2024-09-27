@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link  rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav>
+            <ul class="menu menu-show"> 
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li class="logo"><a href="#home"><img src="images/logo.png" alt="Logo"></a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <ul class="mobile-nav mobile-nav-hidden">
+                <li class="logo-nav"><a href="#home"><img src="images/logo.png" alt="Logo"></a></li>
+            </ul>
+            
+        </nav>
+
+        <section id="home">
+            <div class="content-wrapper">
+                <p class="greeting"><a href="#about">Hello!</a></p>
+                <h1>I'm <span class="highlight">Maha</span>, <br>Tech Learner</h1>
+                <img src="images/foto_maha2.png" alt="Maha Picture" class="profile-pic">
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h1 class="welcome">Welcome to my Portfolio!</h1>
+                <p class="explore">I'm Shabrina Maharani. Explore my journey as an undergraduate Computer Science student at ITB. This portfolio showcases my projects, skills, and experiences in technology development such as web development, software development, and data analysis. Here, you'll find a collection of my work, including academic projects, personal endeavors, and collaborative initiatives. Dive in to see how I turn ideas into impactful solutions and stay updated with my latest accomplishments and learning experiences.</p>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="experience-grid">
+                <div class="left-column">
+                    <h1>Recent Experiences</h1>
+                </div>
+                <div class="right-column">
+                    <div class="timeline-container">
+                        <div class="experience-box">
+                            <h2>Vice Chair of Liaison Officer HMIF Wisokto</h2>
+                            <p>September,2024 - Now</p>
+                        </div>
+                        <div class="experience-box">
+                            <h2>Medical Staff of HMIF Sparta</h2>
+                            <p>July,2024 - September,2024</p>
+                        </div>
+                        <div class="experience-box">
+                            <h2>Staff of Mentor Division Kadwil STEI-K</h2>
+                            <p>Description of Experience 3</p>
+                        </div>
+                        <div class="experience-box">
+                            <h2>Staff of Tech IIT HMIF</h2>
+                            <p>June,2024 - Now</p>
+                        </div>
+                        <div class="experience-box">
+                            <h2>Vice Chair of Licensing Division Akademi Skhole</h2>
+                            <p>July,2023 - March,2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="project">
+            <h1>Recent Projects</h1>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="images/project/Project1.png" alt="ETL Project">
+                    <h2>ETL Project</h2>
+                    <p>This ETL project scrapes data from Halodoc and models it into a relational schema for analysis.</p>
+                    <a href="https://github.com/Maharanish/TUGAS_SELEKSI_2_13522134" class="more-button">See Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/project/Project2.png" alt="Project 2 Image">
+                    <h2>NomNom</h2>
+                    <p>NomNom is a meal planning app offering offline access, seamless recipe viewing, shopping list management, and flexible scheduling</p>
+                    <a href="https://github.com/Maharanish/IF2250-2024-K03-07-NomNom" class="more-button">See Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/project/Project3.png" alt="Project 3 Image">
+                    <h2>Biometric Identification System</h2>
+                    <p>This project uses fingerprint recognition with Boyer-Moore and KMP algorithms for efficient matching and identity verification.</p>
+                    <a href="https://github.com/Maharanish/Tubes3_mamama" class="more-button">See Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/project/Project4.png" alt="Project 4 Image">
+                    <h2>Farm House Game</h2>
+                    <p>A Java-based farm management game with two-player support, save/load features, and UI-backend integration.</p>
+                    <a href="https://github.com/Maharanish/Tubes2_OOP" class="more-button">See Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/project/Project5.png" alt="Project 5 Image">
+                    <h2>Data Analysis</h2>
+                    <p>a health data analysis project using probability and statistics in IPython notebooks (ipynb).</p>
+                    <a href="https://github.com/Maharanish/K03-IF2220-13522134-13522148" class="more-button">See Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/project/Project6.png" alt="Project 6 Image">
+                    <h2>Word Ladder Solver</h2>
+                    <p>This program uses algorithms like UCS, GBFS, and A* to efficiently solve word ladder puzzles.</p>
+                    <a href="https://github.com/Maharanish/Tucil3_13522134" class="more-button">See Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume">
+            <div class="resume-wrapper">
+                <h1>Resume</h1>
+                <img src="images/resume/resume.png" alt="Maha's Resume" class="resume-pic">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="Connect">Get To Know More About Me</h1>
+            <div class="social-media-container">
+                <a href="https://www.youtube.com">
+                    <img src="images/youtube.png" alt="YouTube Icon">
+                </a>
+                <a href="https://www.linkedin.com">
+                    <img src="images/linkedin.png" alt="LinkedIn Icon">
+                </a>
+                <a href="https://www.discord.com">
+                    <img src="images/discord.png" alt="Discord Icon">
+                </a>
+                <a href="https://www.facebook.com">
+                    <img src="images/github.png" alt="Github Icon">
+                </a>
+                <a href="https://www.instagram.com">
+                    <img src="images/instagram.png" alt="Instagram Icon">
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            &copy; 2024 by Shabrina Maharani - 13522134
+        </footer>
+    </body>
+</html>
