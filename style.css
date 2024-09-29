@@ -128,7 +128,7 @@ ul li a:hover {
 
 .greeting {
     font-family: 'Outfit', sans-serif;
-    color: #f18b1d;
+    color: #c77305;
     font-size: medium;
     background-color: #ffedd8cb;
     color: #171717;
@@ -142,7 +142,7 @@ ul li a:hover {
 }
 
 .greeting:hover {
-    background-color: #f18b1d;
+    background-color: #c77305;
     color: white;
     cursor: pointer; 
 }
@@ -178,7 +178,7 @@ h1 {
 
     .greeting {
         font-family: 'Outfit', sans-serif;
-        color: #f18b1d;
+        color: #c77305;
         font-size: medium;
         background-color: #ffedd8cb;
         color: #171717;
@@ -437,7 +437,7 @@ h1 {
 
 .more-button {
     display: inline-block;
-    background-color: #f18b1d;
+    background-color: #c77305;
     color: white;
     padding: 10px 20px;
     text-align: center;
